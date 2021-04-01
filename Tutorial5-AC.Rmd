@@ -11,4 +11,21 @@ keep_md: true
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+# Libraries
+
+```{r libraries}
+library(tidyverse)
+library(COVID19)
+```
+
+# Examining situation in USA
+
+```{r usa}
+covid_us <- covid19("USA", level=2)
+
+ggplot(covid_us, aes(x = date, y = confirmed)) +
+  geom_line() + 
+  facet_wrap(~id)
+```
+
 
