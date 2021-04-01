@@ -1,0 +1,14 @@
+---
+title: "Learning to rebase"
+name: "Arek Chouzadjian"
+date: "01/04/2021"
+output:
+  bookdown::html_document2
+keep_md: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
