@@ -1,3 +1,6 @@
+#ignore all txts
+*.txt
+
 .Rproj.user
 .Rhistory
 .RData
